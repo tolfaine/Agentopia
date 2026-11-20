@@ -1,0 +1,42 @@
+# Secrets and personal files
+.env
+.env.*
+!.env.example
+PLAN.md
+
+# Claude files (all local only)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+CLAUDE*.md
+.claudeignore
+
+# C++ build output
+build/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+
+# Node (gateway, viewer)
+node_modules/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# Runtime data
+saves/
+logs/
+*.log
+
+# Editors and OS
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
